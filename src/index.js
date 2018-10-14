@@ -1,3 +1,5 @@
+import * as moment from 'moment'
+
 console.log('Hello world')
 
 var array = [1, 2, 3]
@@ -11,3 +13,5 @@ if (process.env.NODE_ENV !== 'production') {
 } else {
   console.log('Looks like we are in production mode!')
 }
+
+console.log(moment.locale());
